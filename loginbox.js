@@ -28,7 +28,7 @@
            </div>
            <div class="col-md-6 login-form-2">
                <div class="login-logo">
-                   <img src="logo_white.png" alt=""/>
+                   <img src="images/logo_white.png" alt=""/>
                </div>
                <h3>Business Login</h3>
                    <div class="form-group">
