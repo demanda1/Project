@@ -63,9 +63,9 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">About us!</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Feedback</a></li> 
+            <li><a href="#aboutus">About us!</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#feedback">Feedback</a></li> 
           </ul>
         </li>
         <li><a href="#" id="loginbtn" data-toggle="modal" data-target="#loginmodal">LOGIN<span class="glyphicon glyphicon-user"><!-- Button trigger modal -->
@@ -136,53 +136,6 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-</div>
-
-<!-- Container (The Band Section) -->
-<div id="band" class="container text-center">
-  <h3>RENTASTIC</h3>
-  <p><em>We Rent </em></p>
-  <p>We deliver you easy and hastle free rental experience.
-    Rent anything from, Furtiture to Laptops, from TV to bikes.
-    We Rent almost everything. So what are you waiting for?
-    start renting!!
-  </p>
-  <br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
-      <a href="#demo" data-toggle="collapse">
-        <img src="abcd.jpg" class="img-circle person" alt="CEO " width="255" height="255">
-      </a>
-      <div id="demo" class="collapse">
-        <p>CEO , Rentastic</p>
-        <p>Loves Writing</p>
-        <p>IBMer</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
-        <img src="djjd.jpg" class="img-circle person" alt="Managing director" width="255" height="255">
-      </a>
-      <div id="demo2" class="collapse">
-        <p>Managing Director</p>
-        <p>Loves puzzles</p>
-        <p>Member since 1988</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
-      <a href="#demo3" data-toggle="collapse">
-        <img src="djnj.jpg" class="img-circle person" alt="Creative designer" width="255" height="255">
-      </a>
-      <div id="demo3" class="collapse">
-        <p>Creative Designer</p>
-        <p>Loves math</p>
-        <p>Member since 2005</p>
-      </div>
-    </div>
-  </div>
 </div>
 
 <!-- Container (TOUR Section) -->
@@ -290,7 +243,54 @@
       </div>
     </div>
   </div>
-  <br>
+  </div>
+
+<!--About Us-->
+<div id="aboutus" class="container text-center">
+    <h3>RENTASTIC</h3>
+    <p><em>We Rent </em></p>
+    <p>We deliver you easy and hastle free rental experience.
+      Rent anything from, Furtiture to Laptops, from TV to bikes.
+      We Rent almost everything. So what are you waiting for?
+      start renting!!
+    </p>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Name</strong></p><br>
+        <a href="#demo" data-toggle="collapse">
+          <img src="abcd.jpg" class="img-circle person" alt="CEO " width="255" height="255">
+        </a>
+        <div id="demo" class="collapse">
+          <p>CEO , Rentastic</p>
+          <p>Loves Writing</p>
+          <p>IBMer</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Name</strong></p><br>
+        <a href="#demo2" data-toggle="collapse">
+          <img src="djjd.jpg" class="img-circle person" alt="Managing director" width="255" height="255">
+        </a>
+        <div id="demo2" class="collapse">
+          <p>Managing Director</p>
+          <p>Loves puzzles</p>
+          <p>Member since 1988</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Name</strong></p><br>
+        <a href="#demo3" data-toggle="collapse">
+          <img src="djnj.jpg" class="img-circle person" alt="Creative designer" width="255" height="255">
+        </a>
+        <div id="demo3" class="collapse">
+          <p>Creative Designer</p>
+          <p>Loves math</p>
+          <p>Member since 2005</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- Footer -->
 <footer class="text-center">
@@ -303,6 +303,31 @@
 <!-- Modal -->
 <div class="modal fade bd-example-modal-lg " id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-body" id="loginbox"> <!-- Login box-->
+        </div>
+  </div>
+
+  <!--Feedback-->
+  <div class="modal fade bd-example-modal-lg" id="feedback" tabindex="-1" role="dialog" aria-labelelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-body" id="feedbackbox">
+            <div class=" container login-container">
+                <div class="row" style="width:480px; position:fixed; top:0px; left:570px;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    <div class="col-md-12 login-form-1">
+                      <div class="cpanel-content center">
+                        <h3>Feedback Form</h3>
+                        
+                            <div class="form-group">
+                                <textarea name="feedback" id="fb" cols="46" rows="10" placeholder="Please write your valuable feedback here..... ! "></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btnSubmit" value="send" />
+                            </div>
+                          </div>
+                    </div>
+
+              </div>
         </div>
   </div>
 

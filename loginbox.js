@@ -35,7 +35,7 @@
                              <input type="text" id="uemail" class="form-control" placeholder="Your Email *" value="" />
                          </div>
                          <div class="form-group">
-                             <input type="password" id="pass" class="form-control" placeholder="Your Password *" value="" />
+                             <input type="password" id="upass" class="form-control" placeholder="Your Password *" value="" />
                          </div>
                          <div class="form-group">
                              <input type="button" class="btnSubmit" value="Login" id="login2" />
@@ -53,7 +53,7 @@
          </div>`)
          $("#login2").on('click',()=>{
              uname=$("#uemail").val()
-             upass=$("#pass").val()
+             upass=$("#upass").val()
              console.log(uname)
              console.log(upass)
          })
