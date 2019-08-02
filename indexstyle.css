@@ -102,24 +102,31 @@
     color: #d5d5d5 !important;
   }
   .navbar-nav li a:hover {
-    color: #fff !important;
+    color: rgb(135, 232, 245) !important;
+    transform: scale(1.2);
   }
   .navbar-nav li.active a {
-    color: #fff !important;
-    background-color: #29292c !important;
+    color:  rgb(10, 10, 10) !important;
+    background-color: #318bf3 !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
   }
   .open .dropdown-toggle {
-    color: #fff;
-    background-color: #555 !important;
+    color: #000;
+    background-color: rgba(67, 138, 185, 0.568) !important;
+    border-radius: 20px;
   }
   .dropdown-menu li a {
     color: #000 !important;
+    font-size: 12px;
+    border-radius: 10px
   }
   .dropdown-menu li a:hover {
-    background-color:darkturquoise !important;
+    background-color:rgba(81, 196, 250, 0.671) !important;
+    transform: scale(1.2);
+    -webkit-text-fill-color: rgb(0,0,0);
+    font-weight: bolder
   }
   footer {
     background-color: #2d2d30;
@@ -233,6 +240,17 @@
   display:inline-block;
 }
 
+#owl-demo .item{
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
 /********************* Shopping Demo-6 **********************/
 .product-grid6,.product-grid6 .product-image6{overflow:hidden}
 .product-grid6{font-family:Georgia, 'Times New Roman', Times, serif; text-align:center;position:relative;transition:all .5s ease 0s; margin-bottom: 30px;}
@@ -256,4 +274,16 @@
 .product-grid6 .social li a:after{content:'';height:15px;width:15px;border-radius:0;transform:translateX(-50%) rotate(45deg);top:-20px;z-index:-1}
 .product-grid6 .social li a:hover:after,.product-grid6 .social li a:hover:before{opacity:1}
 @media only screen and (max-width:990px){.product-grid6{margin-bottom:30px}
+}
+
+
+#owl-demo .item{
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
 }

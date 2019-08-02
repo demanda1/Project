@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Rentastic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="loginbox.js"></script>
+  <link rel="stylesheet" href="indexstyle.css" type="text/css"></style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img  href="#myPage" src="images/newlogo3.png" alt="LOGO">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" style="padding-top: 20px;">
+        <li><div class="bg"><input type="text" name="search" id="search"></div></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ELECTRONICS
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="laptops.html">Laptops</a></li>
+            <li><a href="#">Home Appliances</a></li>
+            <li><a href="#">Refrigirator</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">Lights & Lamps</a></li> 
+            <li><a href="#">Sound Systems</a></li>
+            <li><a href="#">AC, Fans, & Coolers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">FURNITURE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Sofa & Chairs</a></li>
+            <li><a href="#">Beds</a></li>
+            <li><a href="#">Table</a></li>
+            <li><a href="#">Showcases</a></li>
+            <li><a href="#">Couch</a></li> 
+            <li><a href="#">Almirahs</a></li>
+            <li><a href="#">Cupboards</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">AUTOMOBILES
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Cars</a></li>
+            <li><a href="#">Motorbikes</a></li>
+            <li><a href="#">Bicycles</a></li> 
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#aboutus">About us!</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#feedback">Feedback</a></li> 
+          </ul>
+        </li>
+        <li><a href="#" id="loginbtn" data-toggle="modal" data-target="#loginmodal">LOGIN<span class="glyphicon glyphicon-user"><!-- Button trigger modal -->
+          
+          </span></a></li>
+        <li><a href="#myPage">CART<span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Shopping catalogue-->
+<div class="container">
+        <div style="background-color:darkturquoise"><h2 style="font-family: lato">Mobiles & Laptops</h2></div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6" >
+                <div class="product-grid6">
+                    <div class="product-image6">
+                        <a href="#">
+                            <img class="pic-1" src="images/lenovo.png">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <h6 ><a href="#">Lenovo Thinkpad T450</a></h6>
+                        <div class="price">Rs.450.00
+                            <span>Rs.500.00</span>
+                        </div>
+                    </div>
+                    <ul class="social">
+                            <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- different product-->
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid6">
+                    <div class="product-image6">
+                        <a href="#">
+                            <img class="pic-1" src="images/lenovoSA.jpg">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <h6 ><a href="#">Lenovo Thinkpad SA80</a></h6>
+                        <div class="price">Rs.300.00
+                            <span>Rs.480.00</span>
+                        </div>
+                    </div>
+                    <ul class="social">
+                            <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6" >
+                <div class="product-grid6">
+                    <div class="product-image6">
+                        <a href="#">
+                            <img class="pic-1" src="images/lenovogaming.jpg">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <h6 ><a href="#">Lenovo Gaming X450</a></h6>
+                        <div class="price">Rs.500.00
+                            <span>Rs.600.00</span>
+                        </div>
+                    </div>
+                    <ul class="social">
+                            <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid6">
+                    <div class="product-image6">
+                        <a href="#">
+                            <img class="pic-1" src="images//lenovonew.jpg">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <h6><a href="#">Lenovo Thinkpad T350</a></h6>
+                        <div class="price">Rs. 190.00
+                            <span>Rs.220.00</span>
+                        </div>
+                    </div>
+                    <ul class="social">
+                            <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                        <div class="product-grid6">
+                            <div class="product-image6">
+                                <a href="#">
+                                    <img class="pic-1" src="images/lenovothinkpadp52.jpg">
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <h6><a href="#">=Lenovo Thinkpad P52</a></h6>
+                                <div class="price">Rs.300.00
+                                    <span>$480.00</span>
+                                </div>
+                            </div>
+                            <ul class="social">
+                                    <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                            </ul>
+                     </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/asusrog.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">Asus ROG</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/pc.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">HP fully assembled PC</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+           </div>
+           <div class="col-md-3 col-sm-6">
+                <div class="product-grid6">
+                    <div class="product-image6">
+                        <a href="#">
+                            <img class="pic-1" src="images/lenovothinkpadp52.jpg">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <h6><a href="#">Lenovo Thinkpad P102</a></h6>
+                        <div class="price">Rs.300.00
+                            <span>$480.00</span>
+                        </div>
+                    </div>
+                    <ul class="social">
+                            <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                    </ul>
+             </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+                <div class="product-grid6">
+                    <div class="product-image6">
+                        <a href="#">
+                            <img class="pic-1" src="images/gamigcpu.jpg">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <h6><a href="#">Gaming CPU</a></h6>
+                        <div class="price">Rs.300.00
+                            <span>$480.00</span>
+                        </div>
+                    </div>
+                    <ul class="social">
+                            <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                    </ul>
+             </div>
+           </div>
+           <div class="col-md-3 col-sm-6">
+                <div class="product-grid6">
+                    <div class="product-image6">
+                        <a href="#">
+                            <img class="pic-1" src="images/hpomen.jpg">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <h6><a href="#">HP Omen</a></h6>
+                        <div class="price">Rs.300.00
+                            <span>$480.00</span>
+                        </div>
+                    </div>
+                    <ul class="social">
+                            <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                    </ul>
+             </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/fullpc.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">Fully Assembled Samsung PC</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/aceraspire.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">Acer aspire</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/lenovoyoga.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">Lenovo Yoga</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/lenovoza.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">Lenovo ZA</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/hpomen.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">HP Omen</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/hpspectre.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">HP Spectre</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/hpspectre2.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">HP Spectre</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/hpecho.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">HP Echo</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/hpelite.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">HP Elite</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6">
+                    <div class="product-grid6">
+                        <div class="product-image6">
+                            <a href="#">
+                                <img class="pic-1" src="images/hppavillion.jpg">
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h6><a href="#">HP Pavillion</a></h6>
+                            <div class="price">Rs.300.00
+                                <span>$480.00</span>
+                            </div>
+                        </div>
+                        <ul class="social">
+                                <li><a href="" data-tip="See Product"><i class=" glyphicon glyphicon-search"></i></a></li>
+                        </ul>
+                 </div>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+</body>
+</html>
